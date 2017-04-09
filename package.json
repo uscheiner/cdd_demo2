@@ -1,0 +1,24 @@
+{
+  "name": "SampleApplication",
+  "version": "1.0.0",
+  "description": "Sample Application",
+  "main": "index.html",
+  "dependencies": {
+  },
+  "devDependencies": {
+      "@types/selenium-webdriver": "3.0.1",
+      "@types/node": "7.0.0",
+      "ts-node": "3.0.2",
+      "typescript": "2.2.2",
+      "protractor": "4.0.14",
+      "http-server": "0.9.0"
+  },
+  "engines": {
+    "node": ">=7.0.0"
+  },
+  "scripts": {
+      "start": "http-server . -a localhost -p 9000 -o",
+      "test": "protractor ./tests/conf.js"
+  },
+  "license": "CA"
+}
