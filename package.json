@@ -18,7 +18,9 @@
   },
   "scripts": {
       "start": "http-server . -a localhost -p 9000 -o",
-      "test": "protractor ./tests/conf.js"
+      "test": "protractor ./tests/conf.js",
+      "postinstall": "webdriver-manager update",
+      "webdriver": "webdriver-manager start"
   },
   "license": "CA"
 }
