@@ -19,5 +19,6 @@ exports.config = {
 
     // You could set no globals to true to avoid jQuery '$' and protractor '$'
     // collisions on the global namespace.
-    noGlobals: true
+    noGlobals: true,
+    resultJsonOutputFile: './test.result.json'
 };
